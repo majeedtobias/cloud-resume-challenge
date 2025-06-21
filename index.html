@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Majeed Tobias - CV</title>
+    <style>
+    * {
+      max-width: 700px;
+      margin: auto;
+    }
+
+    div {
+      border-radius: 5px;
+    }
+
+    #header {
+      height: 40px;
+      width: 100%;
+      background-color: #ffcccc;
+      position: fixed;
+      z-index: 1;
+    }
+
+    #title {
+      margin-left: 3%;
+    }
+
+    #footer {
+      height: 50px;
+      width: 100%;
+      background-color: #ffcccc;
+      clear: both;
+      position: relative;
+    }
+
+    .left {
+      height: 1000px;
+      width: 45px;
+      background-color: #e0eeee;
+      float: left;
+      position: fixed;
+    }
+
+    .right {
+      height: 1000px;
+      width: 45px;
+      background-color: #e0eeee;
+      float: right;
+      position: inherit;
+    }
+
+    .stuff {
+      display: inline-block;
+      margin-top: 6px;
+      margin-left: 55px;
+      width: 75%;
+      height: 1000px;
+    }
+
+    p,
+    li {
+      font-family: 'Montserrat';
+    }
+
+    .head {
+      font-size: 20px;
+    }
+
+    .work-header {
+      background-color: #737373;
+      color: white;
+      padding: 10px 20px;
+      font-size: 1.3em;
+      font-weight: bold;
+      margin-top: 15px;
+      margin-left: -40px;
+      width: 112%;
+    }
+
+    #name {
+      font-family: Montserrat;
+      float: right;
+      margin-top: 10px;
+      margin-right: 4%;
+    }
+
+    a {
+      color: black;
+      text-decoration: none;
+    }
+
+    @media only screen and (max-width: 430px) {
+      .left,
+      .right {
+        display: none;
+      }
+      .stuff {
+        width: 100%;
+        margin-left: 10px;
+      }
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Roboto', Tahoma, sans-serif;
+      background-color: #353535;
+      color: #333;
+    }
+    .container {
+      display: flex;
+      max-width: 1100px;
+      margin: auto;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .left-column {
+      background-color: #6faa8a;
+      padding: 50px 30px;
+      width: 35%;
+    }
+    .right-column {
+      padding: 40px;
+      width: 65%;
+    }
+    h1 {
+      font-size: 2em;
+      margin-bottom: 0;
+      font-weight: bold;
+    }
+    .contact p {
+      margin: 5px 0;
+      font-size: 0.95em;
+    }
+    .section {
+      margin-bottom: 30px;
+    }
+    .section-title {
+      font-size: 1.1em;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 10px;
+      border-bottom: 3px solid #333;
+      padding-bottom: 4px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    ul li {
+      margin-bottom: 6px;
+      font-size: 0.95em;
+    }
+    .skills, .certs {
+      columns: 2;
+      -webkit-columns: 2;
+      -moz-columns: 2;
+      font-size: 0.95em;
+    }
+    .certs li {
+      margin-bottom: 4px;
+    }
+    .edu-degree {
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    .job {
+      margin-bottom: 20px;
+    }
+    .job-title {
+      font-weight: bold;
+    }
+    .job-company {
+      font-style: italic;
+      font-size: 0.95em;
+    }
+    .job-date {
+      text-align: right;
+      font-style: italic;
+      font-size: 0.9em;
+      color: #414042;
+      white-space: nowrap;
+    }
+    .job-header {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+    .header-block {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      
+    }
+    .header-block p {
+      max-width: 60%;
+      font-size: 0.95em;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="left-column">
+      <h1>MAJEED TOBIAS</h1>
+      <div class="contact">
+        <p>✆ +63 949 647 0563</p>
+        <p>✉ tobias.majeed@gmail.com</p>
+        <p>⌂ San Miguel, Bulacan 3011, Philippines</p>
+      </div>
+
+      <div class="section">
+        <div class="section-title">Education</div>
+        <p><strong>Adamson University</strong> <span style="float:right">2012 - 2020</span></p>
+        <p class="edu-degree">Bachelor of Science Major in Computer Engineering</p>
+      </div>
+
+      <div class="section">
+        <div class="section-title">Skills</div>
+        <div class="skills">
+          <ul>
+            <li>Azure</li><li>JIRA</li><li>ServiceNow</li><li>Python</li>
+            <li>Active Directory</li><li>PowerShell</li><li>AWS</li><li>Microsoft 365</li>
+            <li>Agile</li><li>Java</li><li>CISCO</li><li>Palantir</li>
+            <li>JavaScript</li><li>MIRO</li><li>VBA</li><li>Keycloak</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="section-title">Certificates</div>
+        <div class="certs">
+          <ul>
+            <li>AZ-104: Microsoft Azure Administrator</li>
+            <li>AZ-204: Microsoft Azure Developer Associate</li>
+            <li>AZ-700: Azure Network Engineer Associate</li>
+            <li>AZ-500: Microsoft Azure Security Engineer Associate</li>
+            <li>AZ-900: Microsoft Azure Fundamentals</li>
+            <li>SC-900: Microsoft Security, Compliance, and Identity Fundamentals</li>
+            <li>DP-900: Microsoft Azure Data Fundamentals</li>
+            <li>AI-900: Microsoft Azure AI Fundamentals</li>
+            <li>MS-900: Microsoft Azure 365 Fundamentals</li>
+            <li>AWS Cloud Technical Essentials</li>
+            <li>CCNA Routing and Switching</li>
+            <li>Micro-Certification - Welcome to ServiceNow</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="right-column">
+      <div class="header-block">
+        <p style="max-width: 100%; text-align: justify;">
+Seeking for a career that will develop my technical knowledge and strength. A company that has friendly environment and will help me enhance my soft skills and capabilities.</p>
+      </div>
+<div class="work-header">Work Experience</div>
+      <div class="job">
+        <div class="job-header">
+          <div><span class="job-title">FRONT LINE SUPPORT ENGINEER (FREELANCER)</span><br>
+            <span class="job-company">Viseven - Remote (Europe)</span></div>
+          <div class="job-date">Jan 2024 - Present</div>
+        </div>
+        <ul>
+          <li>Initial point of contact for support inquiries or problems with eWizard settings or content sent through Teams, Jira, Outlook, or Intercom.</li>
+          <li>Collaborating with product managers, sales managers about different permissions and policies of different pharma clients</li>
+          <li>Provides role access and authorization in eWizard and Keycloak.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <div><span class="job-title">APPLICATIONS SYSTEMS ENGINEER</span><br>
+            <span class="job-company">Weserv Systems International Inc. (Fujitsu Philippines) - Remote</span></div>
+          <div class="job-date">Oct 2021 - Present</div>
+        </div>
+        <ul>
+          <li>Coordinating with Japanese developers & clients for application development projects.</li>
+          <li>Research, create and maintain applications using various language and tools such as: PowerShell, VBA, ServiceNow, Azure, Python, PySpark, Java, Palantir.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <div><span class="job-title">CONTENT MODERATOR</span><br>
+            <span class="job-company">TaskUS - Remote (Philippines)</span></div>
+          <div class="job-date">Nov 2020 - Mar 2021</div>
+        </div>
+        <ul>
+          <li>Monitoring posts and comments in social media sites.</li>
+          <li>Moderating inappropriate content online</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <div><span class="job-title">INTERN</span><br>
+            <span class="job-company">Project T - Onsite (Philippines)</span></div>
+          <div class="job-date">Jun 2019 - Sept 2019</div>
+        </div>
+        <ul>
+          <li>Reformatting laptop/desktop and assemble/disassemble computer hardware equipments for replacements.</li>
+          <li>Assisted in troubleshooting printers, Office 365 applications.</li>
+          <li>Installing switches, routers and network rack.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <div><span class="job-title">TECHNICAL SUPPORT REPRESENTATIVE III</span><br>
+            <span class="job-company">TELUS International Philippines - Onsite (Philippines)</span></div>
+          <div class="job-date">Jun 2017 - Jun 2018</div>
+        </div>
+        <ul>
+          <li>Handles ticketing priority tasks and utilized TeamViewer remote desktop tool.</li>
+          <li>Demonstrated knowledge in troubleshooting internet related problem including network-related problems, DNS errors, switch & router issues & Outlook problems.</li>
+          <li>Troubleshooted hardware devices such as Satellite & Smart TV.</li>
+          <li>Resolved clients technical support issue via call, e-mail and chat.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
