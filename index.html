@@ -200,6 +200,7 @@
 <body>
   <div class="container">
     <div class="left-column">
+      <p>This resume has been viewed <span id="visitor-count">...</span> times.</p>
       <h1>MAJEED TOBIAS</h1>
       <div class="contact">
         <p>✆ +63 949 647 0563</p>
@@ -317,5 +318,18 @@ Seeking for a career that will develop my technical knowledge and strength. A co
       </div>
     </div>
   </div>
+  <script>
+  fetch("https://majeedtobiascloudresume01fa.azurewebsites.net/api/visitorCounter?")
+    .then(response => response.text())
+    .then(data => {
+      // Extract number from response
+      const count = data.match(/\d+/g);
+      document.getElementById("visitor-count").innerText = count ? count[0] : "N/A";
+    })
+    .catch(error => {
+      console.error("Error fetching visitor count:", error);
+      document.getElementById("visitor-count").innerText = "N/A";
+    });
+</script>
 </body>
 </html>
